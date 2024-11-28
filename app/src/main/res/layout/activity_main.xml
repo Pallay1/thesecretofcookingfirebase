@@ -1,0 +1,68 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main1"> <!-- Fondo personalizado -->
+
+    <!-- Contenedor para los botones superiores -->
+    <LinearLayout
+        android:id="@+id/topButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <Button
+            android:id="@+id/btnAddRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="AGREGAR RECETA"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnDeleteRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="ELIMINAR RECETA"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnEditRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_500"
+            android:text="EDITAR RECETA"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Lista de recetas -->
+    <ListView
+        android:id="@+id/ListaRecetasView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/topButtonLayout"
+        android:layout_above="@id/logoutButton"
+        android:layout_margin="16dp"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp"
+        android:background="#80FFFFFF" /> <!-- Fondo semi-transparente -->
+
+    <!-- Botón de cerrar sesión en la parte inferior -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CERRAR SESIÓN"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "974474162275",
+    "project_id": "thesecretofcoking",
+    "storage_bucket": "thesecretofcoking.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974474162275:android:49def0c3731225cf4f8856",
+        "android_client_info": {
+          "package_name": "com.example.thesecretofcooking20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9bJOD0e1IURyBdMs_Dp_snzfC1oO101M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
